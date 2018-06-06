@@ -2,7 +2,7 @@
  * This template takes a single argument, a String containing a
  * message to display.
  *@
-@(message: String)
+@(one: String, two: String, three: String)
 
 @*
  * Call the `main` template with two arguments. The first
@@ -16,8 +16,12 @@
      * template and passing a `String` message.
      *@
     <H1>Hello!!</H1>
-    <p>@message</p>
     <p>これはサンプルで作ったページです</p>
+    <ol>
+    	<li>@one</li>
+    	<li>@two</li>
+    	<li>@three</li>
+    </ol>
 
 
 }
